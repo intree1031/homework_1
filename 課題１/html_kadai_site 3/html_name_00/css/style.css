@@ -1,0 +1,365 @@
+/* ここから下に記載していく */
+/* ページ全体を中央寄せ */
+body {
+    width: 1365px;
+    margin: auto;
+}
+
+/* HeaderをFlex */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottons{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.container_f {
+    margin-top: 140px;
+    background-color: #707070;
+}
+.copyrights{
+    color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+.main{
+    background-image: url(../img/mainbg.png);
+    height: 400px;
+}   
+.container_m{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
+.sekach{
+    margin-bottom: 15px;
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: bold;
+}
+.chesyoku{
+    margin-top: 15px;
+    color:aliceblue;
+    font-size: 24px;
+}
+.About{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.About_a{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+}
+.About_b{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.About_c{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 2em;
+}
+.About_d{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 2em;
+}
+.About_e{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 2em;
+}
+.About_f{
+    text-align: center;
+    line-height: 2em;
+}
+.slider-inner{
+    display: flex;
+    width: 1365px;
+}
+.slider-item{
+    flex: 1;
+}
+
+.Course{
+    margin-top: 60px;
+}
+.Course_a{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: #222222;
+    font-weight: bold;
+}
+.Course_b{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 2em;
+}
+.Course_c{
+    display: flex;
+}
+.Course_item1{
+    flex: 1;
+    height: 438px;
+    background-color: #fafafa;
+}
+.Course_word1{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 480px;
+}
+.Course_title1{
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Course_honbun1{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.Course_d{
+    display: flex;
+}
+.Course_item2{
+    flex: 1;
+    height: 438px;
+    background-color: #fafafa;
+}
+.Course_word2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 152px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 480px;
+}
+.Course_title2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Course_honbun2{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 2em;
+}
+.Course_e{
+    display: flex;
+}
+.Course_item3{
+    flex: 1;
+    height: 438px;
+    background-color: #fafafa;
+}
+.Course_word3{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 480px;
+}
+.Course_title3{
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Course_honbun3{
+    margin-bottom: 20px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 2em;
+}
+.News{
+    margin-top: 60px;
+}
+.News_a{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffd61a;
+    font-weight: bold;
+}
+.News_b{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #222222;
+}
+.News_c{
+    display: flex;
+    justify-content: center;
+}
+
+.News_box{
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.News_box:hover{
+    opacity: 0.3;
+}
+.News_moji1{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.News_moji2{
+    font-size: 14px;
+    line-height: 2em;
+}
+.News_d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 18px;
+}
+.more:hover{
+    opacity: 0.3;
+}
+.Access{
+    background-color: #fafafa;
+}
+.Access_a{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.Access_b{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.Access_c{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.Access_d{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: center;
+}
+.Access_moji{
+    height: 50px;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Access_dai1{
+    margin-right: 60px;
+}
+
+
+.contact_ttl {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact_cmt1{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.contact_cmt2{
+    text-align: center;
+    font-size: 16px;
+    line-height: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.contact_cmt3{
+    text-align: center;
+    font-size: 16px;
+    line-height: 2em;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+.contact_table{
+    margin-bottom: 30px;
+    width: 640px
+}
+.contact_item{
+    width: 240px;
+    height: 36px;
+    padding-right: 64px;
+}
+.contact_body{
+    width: 400px;
+    padding: 8px;
+}
+.form_text{
+    margin: 0;
+    width: 328px;
+    height: 36px;
+    border-color: #bfbfbf;
+}
+.form_select{
+    width: 328px;
+    height: 36px;
+}
+.contact-skill{
+    display: block;
+}
+.form_textarea{
+    width: 328px;
+}
+.contact_submit{
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #ffd61a;
+    color: #fafafa;
+    font-weight: bold;
+    margin-left: 200px;
+}
+form{
+    margin-bottom: 140px;
+    width: 640px;
+    margin: 0 auto;
+}
